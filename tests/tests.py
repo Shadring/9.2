@@ -1,10 +1,5 @@
-from src.masks import cart_igognito, bank_balance_igognito
+from src.widget import cart_or_check
 
-card : str= input()
-balance : str = input()
+user: str = input()
 
-
-
-
-print(cart_igognito(card))
-print(bank_balance_igognito(balance))
+cart_or_check(user)
