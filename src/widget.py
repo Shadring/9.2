@@ -1,7 +1,7 @@
 from src.masks import card_number,account_number
 
 
-def cart_or_check(user1: str) -> str:
+def cart_or_check(user1: str):
     """указывает какую функцию надо использовать cart или check и выполняет ее"""
 
     if user1[0:4] == "Счет":
