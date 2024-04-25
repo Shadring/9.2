@@ -1,5 +1,5 @@
 from src.widget import cart_or_check
 
-user: str = input()
+user_input: str = input()
 
-cart_or_check(user)
+cart_or_check(user_input)
