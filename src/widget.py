@@ -14,3 +14,4 @@ def cart_or_check(user1: str) -> str:
 def time_formator(time: str) -> str:
     """форматирует время в формате  11.07.2018"""
     return time[8:10] + "." + time[5:7] + "." + time[0:4]
+''
