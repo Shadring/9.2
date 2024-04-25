@@ -1,7 +1,7 @@
-from src.masks import card_number,account_number
+from src.masks import card_number, account_number
 
 
-def cart_or_check(user1: str):
+def cart_or_check(user1: str) -> str:
     """указывает какую функцию надо использовать cart или check и выполняет ее"""
 
     if user1[0:4] == "Счет":
@@ -12,7 +12,5 @@ def cart_or_check(user1: str):
 
 
 def time_formator(time: str) -> str:
-    a = time[8:10]
-    b = time[5:7]
-    c = time[0:4]
-    return a + "." + b + "." + c + " ."
+    """форматирует время"""
+    return time[8:10] + "." + time[5:7] + "." + time[0:4]
