@@ -6,3 +6,4 @@ def card_number(user: str) -> str:
 def account_number(user: str) -> str:
     """получает счет пользователя позврашает 6 последних цифры 2 первые в виде звезды"""
     return "**" + user[12:16]
+
